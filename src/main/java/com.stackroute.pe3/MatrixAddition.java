@@ -1,6 +1,16 @@
 package com.stackroute.pe3;
 
+/*
+ * Write a program to compute the addition of two matrix, Read the number of rows and columns
+ * as input, also the values of each matrix
+ */
+
 public class MatrixAddition {
+
+    /*
+     * This method takes two matrices as iput and returns a matrix which is the sum
+     * of the two matrices
+     */
 
     public int[][] add(int[][] in1,int[][] in2){
 
