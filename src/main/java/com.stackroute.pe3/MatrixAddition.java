@@ -6,11 +6,11 @@ public class MatrixAddition {
 
         int[][] out = null;
 
-//        System.out.println(in1.length+" "+in1[1].length);
-
         if(in1 != null && in2 != null) {
+            //initializing an array with the length of given array
             out = new int[in1.length][in1[0].length];
 
+            //adds the array
             for (int i = 0; i < in1.length; i++) {
                 for (int j = 0; j < in1[i].length; j++) {
                     out[i][j] = in1[i][j] + in2[i][j];

@@ -12,6 +12,7 @@ public class DateFirstLast {
         Date date = new Date();
         int sub = 0;
 
+        //selects the currnet day and stores the number for each day
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE");
         switch (simpleDateFormat.format(date).toUpperCase()){
             case "TUE" : sub = 1;break;
@@ -26,15 +27,15 @@ public class DateFirstLast {
 
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         date = new Date();
-//        System.out.println(formatter.format(date));
 
+        //prints the first day of the week
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
         cal.add(Calendar.DATE, (-sub));
         Date first_date = cal.getTime();
         System.out.println("Mon " + formatter.format(first_date));
 
-
+        //prints the last day of the week
         cal = Calendar.getInstance();
         cal.setTime(date);
         cal.add(Calendar.DATE, (6-sub));

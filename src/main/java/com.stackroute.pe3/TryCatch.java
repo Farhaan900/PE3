@@ -1,8 +1,13 @@
 package com.stackroute.pe3;
 
 public class TryCatch extends Exception {
+/*
+ * function to demonstrate the working of my exception
+ */
 
     public static void main(String[] args) throws MyException{
+
+
 
         try {
             if(true)

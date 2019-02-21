@@ -17,6 +17,7 @@ public class Exceptions2 {
             num = input.nextInt();
 
 
+            //catches every kind of exception here
             try {
                 a = new int[num];
                 System.out.print("Enter number : ");

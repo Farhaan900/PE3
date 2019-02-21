@@ -14,12 +14,14 @@ public class StudentData extends Exception {
 
         int[] data = new int[num];
 
+        // enters the marks
         System.out.println("Enter the marks :: ");
 
         for(int i=0; i<num; i++){
             data[i] = input.nextInt();
         }
 
+        // checks if the marks are in the range 0 -100 else throws exception
         try {
             for (int i = 0; i < num; i++) {
                 if (data[i] < 0 || data[i] > 100)
