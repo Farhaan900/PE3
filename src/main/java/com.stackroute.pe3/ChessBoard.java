@@ -1,8 +1,17 @@
 package com.stackroute.pe3;
 
+/*
+ *Write a program to create a ChessBoard pattern with the help of multidimensional array, where
+ *WWrepresents white color and BB represents Black color.
+ */
+
 public class ChessBoard {
 
-    public static void main (String[] args){
+    /*
+     * This method creates a chess board and displays the result on the console
+     */
+
+    public int board(){
 
         String[][] board = new String [8][8];
         //array to select he color
@@ -28,6 +37,7 @@ public class ChessBoard {
             System.out.println("");
         }
 
+        return 1;
     }
 
 }

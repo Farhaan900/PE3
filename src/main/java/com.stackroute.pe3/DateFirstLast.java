@@ -3,11 +3,18 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+/*
+ * Write a java program to calculate first and last date of a week.
+ */
+
 public class DateFirstLast {
 
 
+    /*
+     * computes the first and last date of the week and displays it on the comsole
+     */
 
-    public static void main(String[] args) {
+    public int dates() {
 
         Date date = new Date();
         int sub = 0;
@@ -42,6 +49,7 @@ public class DateFirstLast {
         Date last_date = cal.getTime();
         System.out.println("Sun "+ formatter.format(last_date));
 
+        return 1;
     }
 }
 

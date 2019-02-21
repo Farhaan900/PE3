@@ -1,6 +1,16 @@
 package com.stackroute.pe3;
 
+/*
+ * Write a program to set up an array of places, Loop round and remove the vowels. Display the new
+ * words in console
+ */
+
 public class NameOfPlaces {
+
+    /*
+     * this function takes a string array as an input and returns an output string array after removing all
+     * the vowels from the strings
+     */
 
     public String[] noVowel(String[] in){
 
